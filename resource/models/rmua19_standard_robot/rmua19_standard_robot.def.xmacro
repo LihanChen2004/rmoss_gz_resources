@@ -53,8 +53,10 @@
             <axis>
                 <xyz>0 0 1</xyz>
                 <limit>
+                    <effort>100</effort>
                     <lower>-1.57</lower>
                     <upper>1.57</upper>
+					<velocity>50</velocity>
                 </limit>
             </axis>
         </joint>
@@ -80,8 +82,10 @@
             <axis>
                 <xyz>0 1 0</xyz>
                 <limit>
+                    <effort>100</effort>
                     <lower>${-3.14*0.25}</lower>
                     <upper>${3.14*0.18}</upper>
+					<velocity>50</velocity>
                 </limit>
             </axis>
         </joint>
