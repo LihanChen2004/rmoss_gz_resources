@@ -65,7 +65,7 @@
             <inertial>
                 <pose>0 0 0.06 0 0 0</pose>
                 <xmacro_block name="inertia_cylinder"  m="1.0" r="0.05" l="0.17"/>
-            </inertial>
+            </inertial>sticker_type
             <visual name="visual">
                 <xmacro_block name="geometry_mesh" uri="model://rmua19_standard_robot/meshes/gimbal_yaw.dae"/>
             </visual>
