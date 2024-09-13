@@ -54,8 +54,8 @@
                 <xyz>0 0 1</xyz>
                 <limit>
                     <effort>100</effort>
-                    <lower>-1.57</lower>
-                    <upper>1.57</upper>
+                    <lower>-inf</lower>
+                    <upper>inf</upper>
 					<velocity>50</velocity>
                 </limit>
             </axis>
