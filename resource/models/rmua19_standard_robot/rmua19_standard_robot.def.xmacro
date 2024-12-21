@@ -7,6 +7,12 @@
     <xmacro_include uri="model://rmua19_standard_robot/chassis_wheel.def.xmacro" />
     <!--macro defination: rmua19_standard_robot-->
     <xmacro_define_block name="rmua19_standard_robot" params="sticker_type">
+        <link name="base_footprint" />
+        <joint name="base_to_chassis" type="fixed">
+            <pose>0 0 0.076 0 0 0</pose>
+            <parent>base_footprint</parent>
+            <child>chassis</child>
+        </joint>
         <!--chassis-->
         <link name="chassis" >
             <inertial>
